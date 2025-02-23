@@ -1,0 +1,107 @@
+html,
+body {
+    background-color: #EFF4FF;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container-fluid,
+.container {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.086);
+    border-radius: 20px;
+}
+
+.navbar-brand i {
+    color: #4B46E4;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-item a {
+    margin-top: 5px;
+    color: black;
+    border-radius: 9px;
+    padding: 1px;
+    transition: 0.5s;
+}
+
+.nav-item a:hover {
+    box-shadow: 0 0 0 2px #4B46E4;
+}
+
+.hero-section h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.hero-section h3 {
+    font-size: 1.2rem;
+}
+
+.row {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.188);
+}
+
+.row h3 {
+    font-size: 1.3rem;
+}
+
+.row h3 i {
+    color: #4B46E4;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.row h4 {
+    font-size: 1.1rem;
+}
+
+.row h5 {
+    font-size: 1rem;
+    margin-bottom: -6px;
+    margin-top: 20px;
+}
+
+.row p {
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+
+.row p i {
+    color: #4B46E4;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.Formula {
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 20px 0;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(78, 70, 229, 0.212);
+}
